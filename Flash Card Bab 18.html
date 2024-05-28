@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://eskaerpe.github.io/flash-card/ -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flash Card Maker</title>
+
+        <!-- import core bootstrap -->
+        <link href="./Flash Card Bab 18_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <script src="./Flash Card Bab 18_files/bootstrap.bundle.min.js.download" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./Flash Card Bab 18_files/styles.css" />
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1068.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1068.0">
+        <!-- Create New Card -->
+        <a href="Flash Card Bab 17.html">Bab 17 here</a>
+        <a href="Flash Card Bab 20.html">Bab 20 Here</a>
+        <!-- Cards -->
+        <section id="all-card">
+            <div class="container">
+                <div class="row justify-content-center" id="card-place">
+                    <h1 class="text-center">Jenis-Jenis Makanan dan Minuman</h1>
+                    <div class="col-md-4 mb-4 my-flash-card-1" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-1">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(1)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">にく (Niku)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Daging</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-2" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-2">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(2)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">みず (Mizu)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Air Putih</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-3" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-3">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(3)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">ごはん (Gohan)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Nasi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-4" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-4">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(4)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">さかな (Sakana)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Ikan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-5" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-5">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(5)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">たまご (Tamago)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Telor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-6" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-6">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(6)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">やさい (Yasai)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Sayuran</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-7" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-7">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(7)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">こうちゃ (koucha)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Teh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-8" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-8">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(8)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">くだもの (Kudamono)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Buah</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-9" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-9">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(9)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">ぎゅうにゅう (Gyuunyuu)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Susu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-10" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-10">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(10)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">パン (Pan)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Roti</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-11" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-11">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(11)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">コーヒー (Koohii)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Kopi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-12" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-12">
+                                <div class="thefront" style="background-color: rgb(164, 223, 166)">
+                                    <button onclick="removeCard(12)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(43, 43, 43)">ジュース (Juusu)</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(242, 161, 162)">
+                                    <p class="card-text" style="color: rgb(43, 43, 43)">Jus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="card-place">
+                    <h1 class="text-center">Bertanya dan Menjawab Sarapan atau Tidak</h1>
+                    <div class="col-md-4 mb-4 my-flash-card-13" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-13">
+                                <div class="thefront" style="background-color: rgb(83, 106, 223)">
+                                    <button onclick="removeCard(13)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(255, 255, 255)">Q : (nama), itsumo asa-gohan o tabemasu ka.</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(200, 134, 20)">
+                                    <p class="card-text" style="color: rgb(255, 255, 255)">(nama), selalu sarapan?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-14" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-14">
+                                <div class="thefront" style="background-color: rgb(83, 106, 223)">
+                                    <button onclick="removeCard(14)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(255, 255, 255)">A (+) : Hai, Tabemasu</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(200, 134, 20)">
+                                    <p class="card-text" style="color: rgb(255, 255, 255)">Iya, makan pagi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-15" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-15">
+                                <div class="thefront" style="background-color: rgb(83, 106, 223)">
+                                    <button onclick="removeCard(15)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(255, 255, 255)">A (-) : Iie, Tabemasen</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(200, 134, 20)">
+                                    <p class="card-text" style="color: rgb(255, 255, 255)">Tidak makan pagi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="card-place">
+                    <h1 class="text-center">Bertanya dan Menyatakan Makanan yang Dimakan</h1>
+                    <div class="col-md-4 mb-4 my-flash-card-18" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-18">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(18)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">Q : Nani o tabemasu ka.</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Makan apa?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-19" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-19">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(19)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">A : (makanan) o tabemasu</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Makan (makanan)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-20" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-20">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(20)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)"></h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-21" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-21">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(21)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">Q : Nani o nomimasu ka.</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Minum apa?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-22" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-22">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(22)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">A : (minuman) o nomimasu</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Minum (minuman)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-23" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-23">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(23)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)"></h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-24" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-24">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(24)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">(makanan) o tabemasen</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Tidak Makan (makanan)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-25" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-25">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(25)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">(minuman) o nomimasen</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Tidak Minum (minuman)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-26" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-26">
+                                <div class="thefront" style="background-color: rgb(232, 182, 242)">
+                                    <button onclick="removeCard(26)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)"></h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 232, 165)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="card-place">
+                    <h1 class="text-center">Bertanya dan Menyatakan Makanan yang suka/tidak suka</h1>
+                    <div class="col-md-4 mb-4 my-flash-card-28" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-28">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(28)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">Q : (nama), nani ga suki desu ka.</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">(nama), apa yang kamu sukai?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-29" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-29">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(29)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">A : (nama makanan/minuman) ga suki desu.</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Suka (nama makanan/minuman)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-30" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-30">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(30)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)"></h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-31" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-31">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(31)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">Q : (nama makanan/minuman) wa</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Kalau (nama makanan/minuman)?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-32" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-32">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(32)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">A (+) : (nama makanan/minuman) mo suki desu</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Suka (nama makanan/minuman)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4 my-flash-card-33" id="my-flash-card-body">
+                        <div class="card-container">
+                            <div class="thecard thecard-33">
+                                <div class="thefront" style="background-color: rgb(242, 181, 181)">
+                                    <button onclick="removeCard(33)" type="button" class="remove-button btn btn-danger m-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"></path>
+                                            <path
+                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"
+                                            ></path>
+                                        </svg>
+                                        Remove
+                                    </button>
+                                    <h3 class="card-title" style="color: rgb(0, 0, 0)">A (-) : (nama makanan/minuman) wa sukijanai desu</h3>
+                                </div>
+                                <div class="theback" style="background-color: rgb(161, 182, 232)">
+                                    <p class="card-text" style="color: rgb(0, 0, 0)">Ga suka (nama makanan/minuman)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <template id="card-template"></template>
+
+        <script src="./Flash Card Bab 18_files/script.js.download"></script>
+
+        <div>
+            <div style="display: none; position: fixed; top: 30px; width: auto; max-width: 100%; text-align: center; left: 50%; transform: translateX(-50%); z-index: 99999999">
+                <div
+                    style="
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: bold;
+                        border: 1px solid rgb(240, 195, 109);
+                        background-color: rgb(249, 237, 190);
+                        padding: 0px 10px;
+                        border-radius: 2px;
+                        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+                    "
+                ></div>
+            </div>
+        </div>
+    </body>
+    <grammarly-desktop-integration data-grammarly-shadow-root="true"
+        ><template shadowrootmode="open"
+            ><style>
+                div.grammarly-desktop-integration {
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    padding: 0;
+                    margin: -1px;
+                    overflow: hidden;
+                    clip: rect(0, 0, 0, 0);
+                    white-space: nowrap;
+                    border: 0;
+                    -moz-user-select: none;
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+
+                div.grammarly-desktop-integration:before {
+                    content: attr(data-content);
+                }
+            </style>
+            <div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content='{"mode":"full","isActive":true,"isUserDisabled":false}'></div></template
+    ></grammarly-desktop-integration>
+</html>
